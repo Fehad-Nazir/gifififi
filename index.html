@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, My Love</title>
+    <meta
+      name="description"
+      content="A cozy little birthday love letter wrapped in warm colors, soft music, and treasured memories."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="intro-active">
+    <div class="intro-overlay" id="introOverlay">
+      <button class="intro-card" id="introCard" type="button" aria-label="Open Jasrah's birthday card">
+        <span class="intro-card-inner">
+          <span class="sr-only">Tap to open Jasrah's birthday card</span>
+          <span class="card-illustration" aria-hidden="true">
+            <span class="cake-top"></span>
+            <span class="cake-layer cake-layer-top"></span>
+            <span class="cake-layer cake-layer-bottom"></span>
+            <span class="cake-icing"></span>
+            <span class="plate"></span>
+            <span class="candles">
+              <span class="candle"><span class="flame"></span></span>
+              <span class="candle"><span class="flame"></span></span>
+              <span class="candle"><span class="flame"></span></span>
+            </span>
+          </span>
+        </span>
+      </button>
+    </div>
+
+    <div class="page-shell">
+      <div class="ambient ambient-left" aria-hidden="true"></div>
+      <div class="ambient ambient-right" aria-hidden="true"></div>
+      <div class="doodle doodle-heart" aria-hidden="true"></div>
+      <div class="doodle doodle-stars" aria-hidden="true"></div>
+
+      <header class="hero section reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">For the birthday girl who makes ordinary days feel golden</p>
+          <h1>
+            Happy Birthday,
+            <span id="recipientName">Jasrah</span>
+          </h1>
+        </div>
+      </header>
+
+      <audio id="bgAudio" src="./song.mp3" loop preload="auto" playsinline aria-hidden="true"></audio>
+
+      <main>
+        <section class="section letter-section reveal" id="letter">
+          <div class="section-heading">
+            <h2>For the one who turns every season into home</h2>
+          </div>
+
+          <article class="letter-card">
+            <p id="letterParagraphOne">
+              If I could gather every soft and lovely thing in the world and place it
+              in your hands, I still do not think it would fully express how grateful I
+              am for you. You have this rare way of making life feel gentler, safer, and
+              brighter all at once. In your presence, even silence feels meaningful.
+            </p>
+            <p id="letterParagraphTwo">
+              On your birthday, I do not just celebrate the day you were born. I celebrate
+              your kindness, your laughter, your resilience, your dreams, and the beautiful
+              heart that makes you unmistakably you. Loving you feels like finding warmth on
+              a cold evening, like light spilling through curtains, like coming home.
+            </p>
+            <p id="letterParagraphThree">
+              I hope this year holds gentle mornings, brave new beginnings, deep joy,
+              and all the little miracles your heart has been quietly waiting for. And in
+              every chapter ahead, I hope you remember this with certainty: you are deeply,
+              dearly, and endlessly loved.
+            </p>
+          </article>
+        </section>
+
+        <section class="section reasons-section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Little Truths</p>
+            <h2>Things that make you unforgettable</h2>
+          </div>
+
+          <div class="reasons-grid">
+            <article class="reason-card">
+              <span class="reason-number">01</span>
+              <h3>Your warmth</h3>
+              <p>
+                You make spaces feel kinder. Even the busiest days soften when your voice is in them.
+              </p>
+            </article>
+            <article class="reason-card">
+              <span class="reason-number">02</span>
+              <h3>Your light</h3>
+              <p>
+                You carry a glow that is impossible to fake, the kind that lingers long after a moment ends.
+              </p>
+            </article>
+            <article class="reason-card">
+              <span class="reason-number">03</span>
+              <h3>Your heart</h3>
+              <p>
+                The way you love, care, and stay gentle in a hard world is one of my favorite miracles.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section gallery-section reveal" id="gallery">
+          <div class="gallery-grid">
+            <figure class="photo-card tilt-left">
+              <img src="./assets/photo-1.jpg" alt="A warm birthday memory together" />
+              <figcaption>My favorite place has quietly become next to you.</figcaption>
+            </figure>
+            <figure class="photo-card tilt-right">
+              <img src="./assets/photo-2.jpg" alt="A second favorite photo together" />
+              <figcaption>You make even ordinary nights feel like something worth keeping forever.</figcaption>
+            </figure>
+            <figure class="photo-card tilt-left">
+              <img src="./assets/photo-3.JPG" alt="A sweet candid memory together" />
+              <figcaption>Every version of us feels like a memory I want to hold onto.</figcaption>
+            </figure>
+            <figure class="photo-card tilt-right">
+              <img src="./assets/photo-4.JPG" alt="A joyful photo of the two of us together" />
+              <figcaption>Somehow you make every day feel softer, brighter, and more alive.</figcaption>
+            </figure>
+            <figure class="photo-card tilt-left">
+              <img src="./assets/photo-5.JPG" alt="Another favorite photograph of us together" />
+              <figcaption>Even time slows down a little when I am with you.</figcaption>
+            </figure>
+            <figure class="photo-card tilt-right">
+              <img src="./assets/photo-6.JPG" alt="A cherished photo memory of us together" />
+              <figcaption>If love had a gallery, it would look a little like this.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section promise-section reveal">
+          <div class="promise-card">
+            <p class="eyebrow">Birthday Wish</p>
+            <h2 id="closingHeading">May this year hold as much tenderness as you give the world.</h2>
+            <p id="closingMessage">
+              May your days be lit with peace, your nights softened by rest, and your heart
+              continually reminded of how cherished you are. Happy birthday, beautiful.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
